@@ -1,0 +1,6 @@
+1) create two branch e.g. master and feature
+2) push file into both file but file name should be same but code should be diffrect atleast one text should chnage so should have conflict and follow the following line.
+
+git checkout new_feature
+git pull origin master
+git status

@@ -1,0 +1,216 @@
+1) cd REPO
+2) git clone https://github.com/kiranredhat/selenium-python.git
+cd REPO/selenium-python
+
+3) After that copy project manually into cd C://REPO//selenium-python
+
+4) git add .
+4) git status
+5) git commit -m message"commiting YCC project"
+6) git push
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\User>cd c:\REPO
+
+c:\REPO>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 068D-C802
+
+ Directory of c:\REPO
+
+17/04/2019  04:32 PM    <DIR>          .
+17/04/2019  04:32 PM    <DIR>          ..
+23/12/2018  09:30 AM    <DIR>          selenium-python
+17/04/2019  04:48 PM    <DIR>          Ytel_Contact_Center
+               0 File(s)              0 bytes
+               4 Dir(s)   3,328,598,016 bytes free
+
+c:\REPO>mkdir test
+
+c:\REPO>cd test
+
+c:\REPO\test>git clone https://github.com/kiranredhat/selenium-python.git sel-py
+
+Cloning into 'sel-py'...
+remote: Enumerating objects: 8, done.
+remote: Total 8 (delta 0), reused 0 (delta 0), pack-reused 8
+Unpacking objects: 100% (8/8), done.
+
+c:\REPO\test>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 068D-C802
+
+ Directory of c:\REPO\test
+
+28/07/2019  06:44 PM    <DIR>          .
+28/07/2019  06:44 PM    <DIR>          ..
+28/07/2019  06:44 PM    <DIR>          sel-py
+               0 File(s)              0 bytes
+               3 Dir(s)   3,328,307,200 bytes free
+
+c:\REPO\test>cd sel-py
+
+c:\REPO\test\sel-py>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 068D-C802
+
+ Directory of c:\REPO\test\sel-py
+
+28/07/2019  06:44 PM    <DIR>          .
+28/07/2019  06:44 PM    <DIR>          ..
+28/07/2019  06:44 PM    <DIR>          selenium-python-learn
+               0 File(s)              0 bytes
+               3 Dir(s)   3,328,307,200 bytes free
+
+c:\REPO\test\sel-py>cd selenium-python-learn
+
+c:\REPO\test\sel-py\selenium-python-learn>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 068D-C802
+
+ Directory of c:\REPO\test\sel-py\selenium-python-learn
+
+28/07/2019  06:44 PM    <DIR>          .
+28/07/2019  06:44 PM    <DIR>          ..
+28/07/2019  06:44 PM                 0 test.txt
+               1 File(s)              0 bytes
+               2 Dir(s)   3,328,307,200 bytes free
+
+c:\REPO\test\sel-py\selenium-python-learn>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+c:\REPO\test\sel-py\selenium-python-learn>git branch
+* master
+
+c:\REPO\test\sel-py\selenium-python-learn>git branch -b Jira-1
+error: unknown switch `b'
+usage: git branch [<options>] [-r | -a] [--merged | --no-merged]
+   or: git branch [<options>] [-l] [-f] <branch-name> [<start-point>]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track           set up tracking mode (see git-pull(1))
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      Unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    -c, --copy            copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    -l, --list            list branch names
+    --create-reflog       create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --column[=<style>]    list branches in columns
+    --sort <key>          field name to sort on
+    --points-at <object>  print only branches of the object
+    -i, --ignore-case     sorting and filtering are case insensitive
+    --format <format>     format to use for the output
+
+
+c:\REPO\test\sel-py\selenium-python-learn>git checkout -b Jira-1
+Switched to a new branch 'Jira-1'
+
+c:\REPO\test\sel-py\selenium-python-learn>git branch
+* Jira-1
+  master
+
+c:\REPO\test\sel-py\selenium-python-learn>edit test.txt
+'edit' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\REPO\test\sel-py\selenium-python-learn>notepad test.txt
+
+c:\REPO\test\sel-py\selenium-python-learn>git status
+On branch Jira-1
+nothing to commit, working tree clean
+
+c:\REPO\test\sel-py\selenium-python-learn>git status
+On branch Jira-1
+nothing to commit, working tree clean
+
+c:\REPO\test\sel-py\selenium-python-learn>notepad test.txt
+
+c:\REPO\test\sel-py\selenium-python-learn>git status
+On branch Jira-1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+c:\REPO\test\sel-py\selenium-python-learn>git add test.txt
+
+c:\REPO\test\sel-py\selenium-python-learn>git status
+On branch Jira-1
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   test.txt
+
+
+c:\REPO\test\sel-py\selenium-python-learn>git diff
+
+c:\REPO\test\sel-py\selenium-python-learn>git commit -m "First Commite"
+[Jira-1 34b8700] First Commite
+ 1 file changed, 1 insertion(+)
+
+c:\REPO\test\sel-py\selenium-python-learn>git status
+On branch Jira-1
+nothing to commit, working tree clean
+
+c:\REPO\test\sel-py\selenium-python-learn>git push
+fatal: The current branch Jira-1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin Jira-1
+
+
+c:\REPO\test\sel-py\selenium-python-learn>git push origin Jira-1
+Username for 'https://github.com': kiran.gaikwad45@gmail.com
+Password for 'https://kiran.gaikwad45@gmail.com@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/kiranredhat/selenium-python
+.git/'
+
+c:\REPO\test\sel-py\selenium-python-learn>git push origin Jira-1
+Username for 'https://github.com': kiran.gaikwad45@gmail.com
+Password for 'https://kiran.gaikwad45@gmail.com@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/kiranredhat/selenium-python
+.git/'
+
+c:\REPO\test\sel-py\selenium-python-learn>git push origin Jira-1
+Username for 'https://github.com': kiran.gaikwad45@gmail.com
+Password for 'https://kiran.gaikwad45@gmail.com@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/kiranredhat/selenium-python
+.git/'
+
+c:\REPO\test\sel-py\selenium-python-learn>
